@@ -1,0 +1,50 @@
+<exporter version="1.0">
+    <!-- identifier of the exporter -->
+    <name>SevenMatches</name>
+	
+    <!-- display name of the exporter for the combo box -->
+    <displayName>SevenMatches css file</displayName>
+	
+    <!-- description of the exporter -->
+    <description>SevenMatches exporter</description>
+
+    <!-- exporter version -->
+    <version>1.0</version>
+	
+    <files>
+        <file>
+            <!-- name of this file variable -->
+            <name>css</name>
+
+            <!-- human readable name (for GUI) -->
+            <displayName>CSS file</displayName>
+
+            <!-- file extension for the file -->
+            <fileExtension>css</fileExtension>
+
+            <!-- description what the file contains, used in tooltips in the GUI -->
+            <description> css sprite data </description>
+
+            <!-- name of the template file -->
+            <template>plain.css</template>
+        </file>
+    </files>
+
+    <!-- target framework supports trimming -->
+    <supportsTrimming>true</supportsTrimming>
+
+    <!-- target framework supports rotated sprites -->
+    <supportsRotation>false</supportsRotation>
+
+    <!-- supports npot sizes -->
+    <supportsNPOT>true</supportsNPOT>
+
+    <!-- supports file name stripping (remove .png etc) -->
+    <supportsTrimSpriteNames>yes</supportsTrimSpriteNames>
+
+    <!-- supports texure subpath -->
+    <supportsTextureSubPath>yes</supportsTextureSubPath>
+
+</exporter>
+
+
