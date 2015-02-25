@@ -1,0 +1,8 @@
+/* an if statement in the texture packer templating language */
+{% if sprite.trimmedName|makecssselector %}
+  {{sprite.trimmedName|makecssselector}} {
+    width:{{ sprite.frameRect.width }}px;
+    height:{{ sprite.frameRect.height }}px; 
+    background-position: -{{ sprite.frameRect.x }}px -{{ sprite.frameRect.y }}px
+  }
+{% endif %}
