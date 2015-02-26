@@ -20,7 +20,7 @@ var MakeCheckedFilter = function(input) {
     input = input.replace("sm_", "")
     input = input.charAt(0).toLowerCase() + input.slice(1);
 
-    return "input + " + "." + input.replace("-checked", ":checked");
+    return "input:checked + " + "." + input.replace("-checked", "");
   }else {
     return "";
   }
